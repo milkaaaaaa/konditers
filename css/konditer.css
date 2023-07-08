@@ -1,0 +1,421 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+}
+.navbar.container {
+height: inherit;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    background-color: #CE6A85;
+}
+
+.navbar-menu li {
+    display: inline-block;  
+}
+
+.navbar-menu li a {
+    display: inline-block;  
+    color: #000;  
+    opacity: 0.7;
+    text-decoration: none;
+    padding: 25px;
+    transition: all .07s ease-in-out;
+    font-size: 1.5rem;
+}
+
+.navbar-menu li a:hover {
+opacity: 1; 
+}
+
+.navbar-wrap {
+    display:flex;
+    flex-flow: row nowrap;
+}
+
+.navbar-brand {
+font-weight: 700;
+font-size: 26px;
+text-decoration: none;
+color: #000;
+transition: all .07s ease-in-out;
+}
+
+.img {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    border-radius: 15%;
+}
+.background{
+    min-height: 100%;
+    min-width: 640px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    }
+    .h2{ 
+        position: absolute;
+        width: 488px;
+        height: 284px;
+        left: 163px;
+        top: 232px;
+        
+        font-family: 'Satisfy';
+        font-size: 85px;
+        line-height: 139px;
+        font-style: italic;
+    }
+    .fot{
+       margin-top: 177px;
+       margin-left: 839px;
+       border-radius: 20px;
+        filter: blur(5px); /* Размытие изображения */
+        transition: 1s; /* Время перехода */
+    }
+    .fot
+    :hover {
+        filter: blur(0); /* Отменяем размытие */
+    }
+    .h1{
+        position: absolute;
+        left: 575px;
+        top: 1150px;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 30px;
+    }
+    .round{
+       margin-top: 164px;
+       margin-left:38px ;
+       
+    }
+    .hover-image-scale{
+        display: inline-block; 
+        overflow: hidden; 
+        margin-top: 164px;
+       margin-left:38px ;
+      }
+      .hover-image-scale img:hover {
+        transform: scale(1.2);
+        margin-top: 164px;
+       margin-left:38px ;
+      }
+      .naz{
+        margin-top:0px ;
+        margin-left:158px ;
+        position: absolute;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 39px;
+      }
+      .naz1{
+        margin-top:0px ;
+        margin-left:785px ;
+        position: absolute;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 39px;
+      }
+      .naz2{
+        margin-top:0px ;
+        margin-left:1100px ;
+        position: absolute;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 39px;
+      }
+      .naz3{
+        margin-top:0px ;
+        margin-left:485px ;
+        position: absolute;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 39px;
+      }
+      .nar{
+        margin-top:50px ;
+        margin-left:158px ;
+        position: absolute;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 25px;
+      }
+      .nar1{
+        margin-top:50px ;
+        margin-left:472px ;
+        position: absolute;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 25px;
+      }
+      .nar2{
+        margin-top:50px ;
+        margin-left:763px ;
+        position: absolute;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 25px;
+      }
+      .nar3{
+        margin-top:50px ;
+        margin-left:1090px ;
+        position: absolute;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 25px;
+      }
+      .nas{
+        margin-top:80px ;
+        margin-left:158px ;
+        position: absolute;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 20px;
+      }
+      .nas1{
+        margin-top:80px ;
+        margin-left:472px ;
+        position: absolute;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 20px;
+      }
+      .nas2{
+        margin-top:80px ;
+        margin-left:763px ;
+        position: absolute;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 20px;
+      }
+      .nas3{
+        margin-top:80px ;
+        margin-left:1090px ;
+        position: absolute;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 20px;
+      }
+      .h11{
+        position: absolute;
+        left: 575px;
+        top: 1820px;
+        font-family: 'Satisfy';
+        font-style: italic;
+        font-size: 30px;
+    }
+    .keks{
+      margin-top:0px ;
+      margin-left:158px ;
+      position: absolute;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 39px;
+    }
+    .keks1{
+      margin-top:0px ;
+      margin-left:785px ;
+      position: absolute;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 39px;
+    }
+    .keks2{
+      margin-top:0px ;
+      margin-left:1100px ;
+      position: absolute;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 39px;
+    }
+    .keks3{
+      margin-top:0px ;
+      margin-left:485px ;
+      position: absolute;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 39px;
+    }
+
+    .nar{
+      margin-top:50px ;
+      margin-left:158px ;
+      position: absolute;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 25px;
+    }
+    .kekss{
+      margin-top:57px ;
+      margin-left:158px ;
+      position: absolute;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 20px;
+    }
+    .kekss1{
+      margin-top:57px ;
+      margin-left:472px ;
+      position: absolute;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 25px;
+    }
+    .kekss2{
+      margin-top:57px ;
+      margin-left:763px ;
+      position: absolute;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 25px;
+    }
+    .kekss3{
+      margin-top:57px ;
+      margin-left:1090px ;
+      position: absolute;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 25px;
+    }
+    .keksss{
+      margin-top:90px ;
+      margin-left:158px ;
+      position: absolute;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 20px;
+    }
+    .keksss1{
+      margin-top:90px ;
+      margin-left:472px ;
+      position: absolute;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 20px;
+    }
+    .keksss2{
+      margin-top:120px ;
+      margin-left:763px ;
+      position: absolute;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 20px;
+    }
+    .keksss3{
+      margin-top:120px ;
+      margin-left:1090px ;
+      position: absolute;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 20px;
+    }
+
+    .h22{
+      position: absolute;
+      left: 575px;
+      top: 2500px;
+      font-family: 'Satisfy';
+      font-style: italic;
+      font-size: 30px;
+  }
+  
+  .fott{
+    margin-top: 350px;
+    margin-left: 839px;
+    border-radius: 20px;
+  
+    
+ }
+ .h222{
+  position: absolute;
+  left: 57px;
+  top: 2600px;
+  font-family: 'Satisfy';
+  font-style: italic;
+  font-size: 30px;
+}
+.h2222{
+  position: absolute;
+  left: 575px;
+  top: 3300px;
+  font-family: 'Satisfy';
+  font-style: italic;
+  font-size: 30px;
+}
+.h333{
+  position: absolute;
+  left: 151px;
+  top: 3479px;
+  font-size: 30px;
+}
+.h3333{
+  position: absolute;
+  left: 151px;
+  top: 3550px;
+  font-size: 30px;
+}
+
+.social-icons-1 { left: 572px;
+  top: 3694px;
+  position: absolute;
+  padding: 0;
+  list-style: none;
+  margin: 10px;
+ 
+}
+.social-icons-1 li {
+  display: inline-block;
+  position: relative;
+  font-size: 24px;
+}
+.social-icons-1 i,
+.social-icons-1 img {
+  color: #fff;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 100px;
+  height: 100px;
+  text-align:center;
+  transition: all 0.3s ease-out;
+}
+.social-icons-1 a {
+  display: inline-block;
+  
+  
+}
+.social-icons-1 a:before {
+  transform: scale(1);
+  content: "";
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #e975bc, #ffffff);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-out;
+}
+.social-icons-1 a:hover:before {
+  transform: scale(0);
+  transition: all 0.3s ease-in;
+ 
+}
+.social-icons-1 a:hover i,
+.social-icons-1 a:hover img {
+  transform: scale(1.8);
+  color: #337AB7;
+  transition: all 0.3s ease-in;}
+  
+.imgg {
+  border-radius: 100px;
+}
